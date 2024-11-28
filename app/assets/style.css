@@ -1,0 +1,147 @@
+
+
+/* style.css */
+
+/* Общие стили для всего приложения */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Заголовок дашборда */
+.dashboard-title {
+    text-align: center;
+    color: #333;
+}
+
+/* Описание дашборда */
+.dashboard-description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Основной контент */
+.upload-container {
+    margin-bottom: 30px;
+}
+
+/* Стили для загрузки файла */
+.upload-box {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* Стили для выбора диапазона дат */
+.filter-block {
+    border: 1px solid #ccc; /* Граница блока */
+    border-radius: 5px; /* Скругление углов */
+    padding: 20px; /* Внутренние отступы */
+    margin: 20px 0; /* Внешние отступы */
+    background-color: #f9f9f9; /* Цвет фона */
+}
+
+.filter-title {
+    margin-bottom: 15px; /* Отступ снизу заголовка */
+    color: #333; /* Цвет текста заголовка */
+}
+
+.date-picker {
+    margin-bottom: 15px; /* Отступ снизу для выбора даты */
+}
+
+.radio-items {
+    margin-top: 10px; /* Отступ сверху для переключателя */
+}
+
+
+
+/* Ключевые показатели */
+.key-metrics {
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Стили для графиков в две колонки */
+.graphs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.graph {
+    flex: 1;
+}
+
+.graph + .graph {
+    margin-left: 10px; /* Отступ между графиками */
+}
+
+
+
+/* Кнопки */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #646fdaf1;
+    border-color: #646fdaf1; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #53be15f6;
+    border-color: #515bb6f6; }
